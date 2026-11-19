@@ -93,11 +93,3 @@ NDCG dihitung pada item test tiap user (user dengan minimal 2 item test), dalam 
 4. Learning rate α adalah parameter paling sensitif pada SGD; α = 0,01 terbaik, α ≥ 0,05 mulai tidak stabil.
 5. Akurasi prediksi rating yang bagus tidak menjamin Top-N yang bagus. Pada MF, F1@10 (0,011) jauh di bawah baseline populer (0,107) karena model merekomendasikan film langka dengan prediksi 5,0. Pada CF, Top-N dengan sedikit tetangga menghasilkan skor yang seri.
 6. Keterbatasan: satu split saja (tanpa cross-validation), cold item sekitar 4% pasangan test, dan matriks similarity item berukuran besar.
-
-## Checklist laporan PDF
-
-- [ ] Nomor kelompok dan daftar anggota
-- [ ] Link source code (akses diberikan ke `bayzal@gmail.com`)
-- [ ] Penjelasan langkah tiap metode + screenshot kode
-- [ ] Tabel hasil MAE, MSE, RMSE, NMSE, NDCG untuk ketiga metode
-- [ ] Analisis dan kesimpulan
