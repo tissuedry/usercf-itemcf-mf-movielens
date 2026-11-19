@@ -7,7 +7,6 @@ Prediksi rating dan rekomendasi film pada dataset **MovieLens `ml-latest-small`*
 | **Kelompok** | 2 |
 | **Mata kuliah** | Sistem Rekomendasi |
 | **Deadline** | Jumat, 20 November 2026, 23.59 |
-| **Source code** | https://github.com/tissuedry/usercf-itemcf-mf-movielens (akses diberikan ke `bayzal@gmail.com`) |
 
 **Anggota**
 
