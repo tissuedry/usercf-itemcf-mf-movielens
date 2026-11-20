@@ -24,7 +24,7 @@ Prediksi rating dan rekomendasi film pada dataset **MovieLens `ml-latest-small`*
 |---|---|
 | [UserCF_MovieLens.ipynb](UserCF_MovieLens.ipynb) | User-based collaborative filtering (Pearson pada item co-rated, k = 30 tetangga) |
 | [ItemCF_MovieLens.ipynb](ItemCF_MovieLens.ipynb) | Item-based collaborative filtering (cosine dan adjusted cosine) |
-| [mf_sgd.ipynb](mf_sgd.ipynb) | Matrix factorization dengan SGD, tanpa dan dengan bias |
+| [MatrixFactorization_MovieLens.ipynb](MatrixFactorization_MovieLens.ipynb) | Matrix factorization dengan SGD, tanpa dan dengan bias |
 
 Setiap notebook berisi setup, preprocessing dan split, implementasi model, contoh satu prediksi, evaluasi, dan contoh rekomendasi Top-N. Notebook ItemCF dan MF juga memuat verifikasi pada contoh kecil dan bagian analisis.
 
